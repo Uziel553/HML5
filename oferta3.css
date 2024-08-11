@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    background-color:#ffffff ;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #8a7d9b;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial;
+    padding-right: 10px;
+}
+.logo {
+    max-height: 70px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 16px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #cea0ea;
+    border-radius: 20px;
+}
+.imagen-enlace{
+    width: 100%;
+    height: 100px;  
+}
+.image-row {  
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    gap: 110px;
+}
+
+.strella{
+    border: 5% solid black; 
+    width: 330px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+.top{ 
+    width: 330px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+.gorra{
+    margin-right: 20px;
+    width: 300px; 
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+.caja{
+    display: flex;
+    gap: 250px;
+}
+
+.caja1{
+    background-color: #fff;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.ofe{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+.of{
+    text-decoration: none;
+    margin-top: -25px;
+    margin-left: 170px;
+    color: #ff0000;
+    font-size: 15px;
+}
+.of1{
+    text-decoration: none;
+    margin-top: -17px;
+    margin-left: 225px;
+    color: #ff0000;
+    font-size: 15px;
+}
+
+.aho {
+    position: absolute;
+    margin-top: 30px;
+    left: 70px;
+    color: #666;
+    font-size: 16px;
+}
+.aho1 {
+    position: absolute;
+    margin-top: 30px;
+    left: 43%;
+    color: #666;
+    font-size: 16px;
+}
+.aho2{
+    position: absolute;
+    margin-top: 30px;
+    left: 77%;
+    color: #666;
+    font-size: 16px;
+}
+.btn1{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.btn2{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.btn3{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+button {
+    background-color: #c3b0d3;
+    border: none;
+    padding: 10px 20px;
+    color: #333;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b39fc2;
+}
+.nex{
+    margin-left: 35%;
+}
+.boton{
+    background-color: #ccc;
+    border-radius: 20px;
+    width: 100px;
+}
+.nex1{
+    margin-left: 44%;
+    margin-top: -35px;
+}
+
+.boton1{
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 70%;
+    width: 20px;
+}
+.tex{
+    text-align: center;
+    
+}
+.nex2{
+    margin-left: 48%;
+    margin-top: -35px;
+}
+
+.boton2{
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 70%;
+    width: 20px;
+}
+.tex{
+    text-align: center;
+    
+}
+.nex3{
+    margin-left: 52%;
+    margin-top: -36px;
+}
+
+.boton3{
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 70%;
+    width: 20px;
+}
+.tex{
+    text-align: center;
+    
+}
+.nex4{
+    margin-left: 56%;
+    margin-top: -36px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.boton4{
+    background-color: #ccc;
+    border-radius: 20px;
+    width: 100px;
+}
+.inicio{
+    margin-top: 15px;
+    width: 100%;
+    height: 30px;
+    background-color: #C98BDA;
+}
+.inicio2{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.ini{
+    text-decoration: none;
+    color: #000;
+}
+.footer {
+    margin-top: 10px;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.año{
+    margin-top: 20px;
+}

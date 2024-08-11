@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    position: absolute;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.container {
+    background-color: #BB9DDC;
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    margin-top: 8%;
+    margin-left:35.5%;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.logo img {
+    background-position: center;
+    width: 8%;
+    height: 8%;
+    margin-top: 2%;
+    margin-left: 58%;
+
+}
+a{
+    text-decoration: none;
+}
+.welcome h1 {
+    color: #8a5cac;
+    margin-left: center;
+    margin-bottom: 20px;
+    position: absolute;
+    margin-top: 3%;
+    left: 53%;
+    background-position: center;
+
+}
+.container input {
+    position: relative;
+    right: 10px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #E6D3FF;
+    border-radius: 20px;
+    background-color: #E6D3FF;
+}
+.container button {
+    background-color: #fafafa;
+    color: rgb(176, 126, 227);
+    font-family: sans-serif bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.container button:hover {
+    background-color: #a690b4;
+}
+.footer {
+    background-color:#D9D9D9;
+    position: absolute;
+    width: 34cm;
+    height: 75px;
+    background-position: bottom;
+    text-align: center;
+    margin-top: 410px;
+    font-size: 0.8em;
+    color: #000000;
+}

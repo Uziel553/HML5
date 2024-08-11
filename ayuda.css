@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+    font-family: Arial, sans-serif;
+    background-color:white ;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #8a7d9b;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial;
+    padding-right: 10px;
+}
+.logo {
+    max-height: 70px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 16px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #cea0ea;
+    border-radius: 20px;
+}
+.main{
+    background-color: #D9D9D9;
+    height: 100px;
+}
+.titulo{
+    padding: 15px;
+    text-align: left;
+    justify-content: center;
+}
+.subti{
+    margin-top: 6px;
+    margin-left: 10px;
+    text-align: left;
+    justify-content: center;
+}
+.container2{
+    margin-top: 30px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    max-width: 1000px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.box {
+    background: #fff;
+    border: 3px solid #D6B3DF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+.box:hover {
+    transform: scale(1.05);
+}
+.cajita {
+    position: relative;
+    left: -150px;
+    top:30px;
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+.mundo{
+    position: relative;
+    left: -150px;
+    top:20px;
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+.dinero{
+    position: relative;
+    left: -150px;
+    top:20px;
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+.vestido{
+    position: relative;
+    left: -150px;
+    top:20px;
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.sobre{
+    position: relative;
+    left: -150px;
+    top:20px;
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.tienda{
+    position: relative;
+    left: -150px;
+    top:20px;
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.caja{
+    position: relative;
+    left: 60px;
+    top:-15px;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+.world{
+    position: relative;
+    left: 60px;
+    top:-45px;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+.money{
+    position: relative;
+    left: 60px;
+    top:-40px;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+.ves{
+    position: relative;
+    left: 60px;
+    top:-40px;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+.sob{
+    position: relative;
+    left: 60px;
+    top:-40px;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+.tien{
+    position: relative;
+    left: 60px;
+    top:-30px;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+.footer {
+    margin-top: 40px;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.año{
+    margin-top: 20px;
+
+}
+@media(min-width: 320px) and  (max-width: 420px){
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center; /* Alinea el texto del menú al centro */
+        padding: 10px;
+    }
+
+    .logo {
+        max-height: 50px;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .nav li {
+        margin: 5px 0; /* Reduce el margen inferior entre los elementos del menú */
+    }
+
+    .nav a {
+        display: block; /* Asegura que el enlace ocupe el ancho completo del contenedor */
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .main {
+        height: auto;
+        padding: 10px;
+    }
+    .main {
+        height: auto;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .titulo {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .box {
+        background: #fff;
+        border: 3px solid #D6B3DF;
+        border-radius: 10px;
+        text-align: center;
+        height: 140px;
+        padding: 20px;
+        box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+  .cajita{
+margin-left: 112px;
+max-width: 73px;
+}
+.caja{
+font-size: 13px;
+text-align: center;
+margin-right: 39px;
+}
+.mundo{
+    margin-left: 112px;
+    max-width: 73px;
+}
+.world{
+    font-size: 13px;
+    text-align: center;
+    margin-right: 52px;
+}
+.dinero{
+    margin-left: 112px;
+    max-width: 73px;
+}
+.money{
+    font-size: 13px;
+    text-align: center;
+    margin-right: 52px;
+}
+.vestido{
+    margin-left: 112px;
+    max-width: 73px;
+
+}
+.ves{
+    font-size: 13px;
+    text-align: center;
+    margin-right: 52px;
+}
+.sobre{
+    margin-left: 112px;
+    max-width: 73px;
+
+}
+.sob{
+    font-size: 13px;
+    text-align: center;
+    margin-right: 52px;
+}
+.tienda{
+    margin-left: 112px;
+    max-width: 73px;
+}
+.tien{
+    font-size: 13px;
+    text-align: center;
+    margin-right: 52px;
+}
+
+.box{
+margin-top: -30px;
+margin-bottom: 60px;
+}
+    .container2 {
+        display: block;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .footer {
+        padding: 5px;
+    }
+
+    .footer a {
+        display: block;
+        margin: 5px 0;
+        font-size: 12px;
+    }
+
+    .año {
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center; /* Alinea el texto del menú al centro */
+        padding: 10px;
+    }
+
+    .logo {
+        max-height: 50px;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .nav li {
+        margin: 5px 0; /* Reduce el margen inferior entre los elementos del menú */
+    }
+
+    .nav a {
+        display: block; /* Asegura que el enlace ocupe el ancho completo del contenedor */
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .main {
+        height: auto;
+        padding: 10px;
+    }
+    .main {
+        height: auto;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .titulo {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .box {
+        background: #fff;
+        border: 3px solid #D6B3DF;
+        border-radius: 10px;
+        text-align: center;
+        height: 140px;
+        padding: 20px;
+        box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+  .cajita{
+margin-left: 112px;
+max-width: 73px;
+}
+.caja{
+font-size: 13px;
+text-align: center;
+margin-right: 39px;
+}
+.mundo{
+    margin-left: 112px;
+    max-width: 73px;
+}
+.world{
+    font-size: 13px;
+    text-align: center;
+    margin-right: 52px;
+}
+.dinero{
+    margin-left: 112px;
+    max-width: 73px;
+}
+.money{
+    font-size: 13px;
+    text-align: center;
+    margin-right: 52px;
+}
+.vestido{
+    margin-left: 112px;
+    max-width: 73px;
+
+}
+.ves{
+    font-size: 13px;
+    text-align: center;
+    margin-right: 52px;
+}
+.sobre{
+    margin-left: 112px;
+    max-width: 73px;
+
+}
+.sob{
+    font-size: 13px;
+    text-align: center;
+    margin-right: 52px;
+}
+.tienda{
+    margin-left: 112px;
+    max-width: 73px;
+}
+.tien{
+    font-size: 13px;
+    text-align: center;
+    margin-right: 52px;
+}
+
+.box{
+margin-top: -30px;
+margin-bottom: 60px;
+}
+    .container2 {
+        display: block;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .footer {
+        padding: 5px;
+    }
+
+    .footer a {
+        display: block;
+        margin: 5px 0;
+        font-size: 12px;
+    }
+
+    .año {
+        font-size: 12px;
+    }
+}

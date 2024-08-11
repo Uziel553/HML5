@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+    font-family: Arial, sans-serif;
+    background-color:white ;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #8a7d9b;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial;
+    padding-right: 10px;
+}
+.logo {
+    max-height: 70px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 16px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #cea0ea;
+    border-radius: 20px;
+}
+.main{
+    background-color: #D9D9D9;
+    height: 100px;
+}
+.titulo{
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.marco{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+
+.mac{
+    background-color: #FFFFFF;
+    border: 3px solid #D6B3DF;
+    border-radius: 30px;
+    padding: 20px;
+    height: 200px;
+    width: 350px;
+}
+.hh{
+    text-align: center;
+    justify-content: center;
+}
+.text{
+    margin-top: 3px;
+    text-align: center;
+    justify-content: center;
+}
+.rojo{
+    text-decoration: none;
+    color: red;
+}
+.serv{
+    margin-top: 3px;
+    text-align: center;
+    justify-content: center;
+}
+.ser{
+    text-align: center;
+    justify-content: center;
+    margin-left: 2px;
+}
+.servi{
+    text-align: center;
+    justify-content: center; 
+    margin-top: 40px;
+    color: red ;
+}
+.nex{
+    margin-top: 4px;
+    text-align: center;
+    justify-content: center;
+}
+.mach{
+    background-color: #FFFFFF;
+    border: 3px solid #D6B3DF;
+    border-radius: 30px;
+    padding: 20px;
+    height: 100px;
+    width: 550px;
+}
+.ma{
+    text-align: center;
+    justify-content: center;
+}
+.footer {
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.año{
+    margin-top: 20px;
+}
+@media (min-width: 320px) and (max-width: 420px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .logo {
+        max-width: 50px;
+    }
+
+    .nav {
+        width: 100%;
+        background-color: #8a7d9b;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0; /* Elimina el margen */
+    }
+
+    .nav li {
+        margin: 5px 0;
+        text-align: center; /* Centra los elementos */
+    }
+
+    .main-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .main{
+    font-size: 12px;
+    }
+
+    .regalo {
+        margin-top: 10px;
+    }
+
+    .santa {
+        width: calc(100% - 20px); /* Ajusta el ancho para incluir el margen */
+        margin-left: 10px;
+        height: auto;
+    }
+
+    .texto {
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .cuadro-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cuadro,
+    .cuadro1,
+    .cuadro2 {
+        width: calc(100% - 20px); /* Ajustar al ancho completo con espacio para márgenes */
+        margin: 5px 0;
+    }
+
+    .inicio {
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .text {
+        padding: 5px;
+    }
+
+    .footer {
+        width: 100%; /* Asegura que el pie de página tome el 100% del ancho */
+        margin: 0;
+        padding: 10px;
+        text-align: center; /* Centra el texto */
+    }
+
+    .footer a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .año {
+        margin-top: 10px;
+    }
+
+    .imagen {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .im {
+        width: 100px;
+        height: 100px;
+    }
+
+    .boton {
+        width: 100px;
+        padding: 5px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .marco {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .mac {
+        width: calc(100% - 20px); /* Ajustar al ancho completo con espacio para márgenes */
+        height: auto;
+    }
+
+    .mach {
+        width: calc(100% - 20px); /* Ajustar al ancho completo con espacio para márgenes */
+        height: auto;
+    }
+}
+@media (max-width: 320px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .logo {
+        max-width: 50px;
+    }
+
+    .nav {
+        width: 100%;
+        background-color: #8a7d9b;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0; /* Elimina el margen */
+    }
+
+    .nav li {
+        margin: 5px 0;
+        text-align: center; /* Centra los elementos */
+    }
+
+    .main-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .main{
+    font-size: 10px;
+    }
+
+    .regalo {
+        margin-top: 10px;
+    }
+
+    .santa {
+        width: calc(100% - 20px); /* Ajusta el ancho para incluir el margen */
+        margin-left: 10px;
+        height: auto;
+    }
+
+    .texto {
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .cuadro-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cuadro,
+    .cuadro1,
+    .cuadro2 {
+        width: calc(100% - 20px); /* Ajustar al ancho completo con espacio para márgenes */
+        margin: 5px 0;
+    }
+
+    .inicio {
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .text {
+        padding: 5px;
+    }
+
+    .footer {
+        width: 100%; /* Asegura que el pie de página tome el 100% del ancho */
+        margin: 0;
+        padding: 10px;
+        text-align: center; /* Centra el texto */
+    }
+
+    .footer a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .año {
+        margin-top: 10px;
+    }
+
+    .imagen {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .im {
+        width: 100px;
+        height: 100px;
+    }
+
+    .boton {
+        width: 100px;
+        padding: 5px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .marco {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .mac {
+        width: calc(100% - 20px); /* Ajustar al ancho completo con espacio para márgenes */
+        height: auto;
+    }
+
+    .mach {
+        width: calc(100% - 20px); /* Ajustar al ancho completo con espacio para márgenes */
+        height: auto;
+    }
+}
